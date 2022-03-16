@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    max-width: 180%
+    
+  }
+  
+  .image {
+      padding-top: 20px;
+    flex-basis: 40%;
+    padding-right: 40px;
+
+
+  }
+  .image1 {
+    padding-top: 20px;
+  flex-basis: 40%;
+  padding-right: 50px;
+  size: 130%;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 70px;
+  }
+  .text1 {
+    font-size: 20px;
+    padding-left: 70px;
+    padding-top: 10px;
+  }
+  .coledit{
+      background-color: rgb(152, 152, 163);
+  }

@@ -1,0 +1,7 @@
+.bgimage{
+    background-image: url('/assets/images/doctor3.jpg');
+    background-size: cover;
+}
+.h2{
+    text-align: center;
+}

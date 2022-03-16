@@ -1,0 +1,83 @@
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(229, 223, 231); height: 60px;">
+    <div class="container-fluid">
+     
+      <!--<a href="http://localhost:4200/home"><img src="/assets/tg.png"  height="60px" alt="oooooooooooo"></a>-->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLink="/home"
+              routerLinkActive="active"
+              ><b>Home</b></a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              routerLink="/admin"
+              routerLinkActive="active"
+              ><b>Admin</b></a
+            >
+  
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              routerLink="/doctor"
+              routerLinkActive="active"
+              ><b>Doctor</b></a
+            >
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                routerLink="/patient"
+                routerLinkActive="active"
+                ><b>Patient</b></a
+              >
+              
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  routerLink="/about"
+                  routerLinkActive="active"
+                  ><b>About us</b></a
+                >
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    routerLink="/contact"
+                    routerLinkActive="active"
+                    ><b>Contact us</b></a
+                  >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      routerLink="/feedback"
+                      routerLinkActive="active"
+                      ><b>Feedback</b></a
+                    >
+          
+           <!--<button class="button button1" routerLink="register" routerLinkActive="active" onclick=" this.router.navigate(['/register'])">Register</button>
+            <button class="button button1" routerLink="loginn" routerLinkActive="active" onclick=" this.router.navigate(['/loginn'])">Login</button>-->
+       </ul>
+      </div>
+    </div >
+  </nav>
+  
+   <!--<a routerLink="invoice">invoice</a>-->
+  
+<router-outlet></router-outlet>

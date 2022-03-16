@@ -1,0 +1,33 @@
+
+ 
+ <div class="bgimage" style="width: 100%; ">
+ <br><br><br><br><br><br>
+ <div class="admin-main" style="background-color: rgb(206, 230, 238); max-width: fit-content; margin-left: 900px;">
+     <h1 style="color:navy; padding-top: 35px;">Patient Login</h1><br>
+     
+     <h3 style="color: navy;">Please Login to proceed</h3><br><br>
+     <form  style="color: navy;">
+         <div class="login-div" align="center">
+         <table class="loginform">
+             <tr>
+                 <td><label for="username" style="font-size: large;">Username: &nbsp;</label></td>
+                 <td><input type="email" id="username" name="username" 
+                     class="searchTextField" placeholder="Enter UserName"  [(ngModel)]="patientlogin.username"> 
+                 </td>	 
+             </tr><br>
+             <tr>
+                 <td><label for="password" style="font-size: large;">Password: &nbsp;</label></td>
+                 <td><input type="password" id="password" name="password" 
+                 class="searchTextField" placeholder="Enter Password" [(ngModel)]="patientlogin.password">
+             </td>
+             </tr>
+             <tr>
+                 <td colspan="2" align="center"><br>
+                     <input type="submit" value="Login" class="actionBtn" (click)="onSubmit(patientlogin.username,patientlogin.password)"></td>
+             </tr>
+             </table>
+         </div>
+     </form> 
+     <br>
+     <h3 style="color: navy;" class="newuser">New User? <a style="color: navy;" [routerLink]="['/patientsignup']">Sign Up</a></h3>
+ </div>

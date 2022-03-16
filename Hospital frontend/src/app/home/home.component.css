@@ -1,0 +1,22 @@
+
+.admin{float: left;
+  margin-left: 160px;
+width: fit-content;
+   border: 2px solid black;
+   box-sizing: border-box;}
+
+.doctor{float: left;
+margin-left: 170px;
+ width: fit-content;
+ border: 2px solid black;
+ box-sizing: border-box;}
+
+ .patient{float: left;
+    margin-left: 180px;
+    width: fit-content;
+       border: 2px solid black;
+       box-sizing: border-box;}
+
+.all{ margin-top: 100px;
+
+}

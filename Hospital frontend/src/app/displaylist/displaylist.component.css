@@ -1,0 +1,13 @@
+
+.bgimage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.table{
+    height: 200px;
+    width:90%;
+    text-align: center;
+    
+}
